@@ -10,6 +10,7 @@ A simple client-server graphical editor that allows multiple users to collaborat
 - **Real-time Collaboration**: Multiple clients can connect and modify the same sketch.
 
 ## Project Structure
+```
 Collaborative-Sketch-Editor/
 │── src/
 │   ├── Editor.java          # Main client-side graphical editor
@@ -23,8 +24,8 @@ Collaborative-Sketch-Editor/
 │   ├── EchoServer.java      # Simple echo server to handle multiple clients
 │── README.md                # Project documentation
 │── .gitignore               # Git ignored files
-│── run.sh                   # Shell script to run the server and 
-
+│── run.sh                   # Shell script to run the server
+```
 
 ## Prerequisites
 - Java Development Kit (JDK) 8 or later
