@@ -1,0 +1,9 @@
+
+Consider possible multi-client issues. What unexpected/undesired behaviors are possible? Can you actually make any of them happen?
+Where and why do you use synchronized methods; will they handle everything? Write a short (approximately a paragraph) response.
+
+Multi-client issues can arise such as inconsistent state updates, integrity of data packets lost and many more.
+If multiple clients attempt to modify or delete the same shape simultaneously, one client's update could
+overwrite another client without synchronization. Therefore, synchronization helps for one client to make changes before the other,
+using the locking mechanism for threads. Some other issues such as delayed network can cause one client to receive outdated
+sketches which may result to inconsistencies across editors.
